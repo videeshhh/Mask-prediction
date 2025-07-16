@@ -66,18 +66,12 @@ Or manually:
 pip install tensorflow opencv-python numpy scikit-learn matplotlib
 ```
 
-### 3. Train the Model
-
-```bash
-python train_model.py
-```
-
 The trained model will be saved in the `model/` directory.
 
-### 4. Run Real-Time Mask Detection
+### 3. Run Real-Time Mask Detection
 
 ```bash
-python mask_detector.py
+python nom.ipynb
 ```
 
 A webcam window will open and display bounding boxes with labels like `Mask` or `No Mask`.
